@@ -1,0 +1,25 @@
+{
+  "name": "hexo-migrator-blogger",
+  "version": "0.0.1",
+  "description": "Blogger export migrator plugin for Hexo",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sfoster/hexo-migrator-blogger.git"
+  },
+  "keywords": ["blogger", "hexo", "plugin"],
+  "author": "Sam Foster <sam@sam-i-am.com> (http://sam-i-am.com)",
+  "license": {
+    "type": "MIT",
+    "url": "https://raw.github.com/tommy351/hexo/master/LICENSE"
+  },
+  "engines": {
+    "hexo": "*"
+  },
+  "dependencies": {
+    "xml2js": "*",
+    "request": "*",
+    "async": "*",
+    "to-markdown": "*"
+  }
+}
